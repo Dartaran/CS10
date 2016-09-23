@@ -1,0 +1,56 @@
+Command (q, C, a, f, l, c, r, p, h, t, n, H, g, s, ?): a
+Enter name: NewList
+Command (q, C, a, f, l, c, r, p, h, t, n, H, g, s, ?): p
+NewList
+Command (q, C, a, f, l, c, r, p, h, t, n, H, g, s, ?): f
+Enter name: AddingToFirst
+Command (q, C, a, f, l, c, r, p, h, t, n, H, g, s, ?): p
+AddingToFirst
+NewList
+Command (q, C, a, f, l, c, r, p, h, t, n, H, g, s, ?): l
+Enter name: AddingToLast
+Command (q, C, a, f, l, c, r, p, h, t, n, H, g, s, ?): p
+AddingToFirst
+NewList
+AddingToLast
+Command (q, C, a, f, l, c, r, p, h, t, n, H, g, s, ?): C
+Command (q, C, a, f, l, c, r, p, h, t, n, H, g, s, ?): p
+List is empty
+Command (q, C, a, f, l, c, r, p, h, t, n, H, g, s, ?): f
+Enter name: Test
+Command (q, C, a, f, l, c, r, p, h, t, n, H, g, s, ?): p
+Test
+Command (q, C, a, f, l, c, r, p, h, t, n, H, g, s, ?): C
+Command (q, C, a, f, l, c, r, p, h, t, n, H, g, s, ?): l
+Enter name: TestLast
+Command (q, C, a, f, l, c, r, p, h, t, n, H, g, s, ?): p
+TestLast
+Command (q, C, a, f, l, c, r, p, h, t, n, H, g, s, ?): g
+TestLast
+Command (q, C, a, f, l, c, r, p, h, t, n, H, g, s, ?): s
+Enter name: SettingTestLastToThis
+Command (q, C, a, f, l, c, r, p, h, t, n, H, g, s, ?): p
+SettingTestLastToThis
+Command (q, C, a, f, l, c, r, p, h, t, n, H, g, s, ?): a
+Enter name: Alan
+Command (q, C, a, f, l, c, r, p, h, t, n, H, g, s, ?): p
+TestLast
+Alan
+Command (q, C, a, f, l, c, r, p, h, t, n, H, g, s, ?): c
+Enter name: Alan
+Found Alan
+Command (q, C, a, f, l, c, r, p, h, t, n, H, g, s, ?): f
+Enter name: BeforeAlan
+Command (q, C, a, f, l, c, r, p, h, t, n, H, g, s, ?): p
+BeforeAlan
+Alan
+Command (q, C, a, f, l, c, r, p, h, t, n, H, g, s, ?): g
+BeforeAlan
+Command (q, C, a, f, l, c, r, p, h, t, n, H, g, s, ?): a
+Enter name: AfterBeforeAlan
+Command (q, C, a, f, l, c, r, p, h, t, n, H, g, s, ?): p
+BeforeAlan
+AfterBeforeAlan
+Alan
+Command (q, C, a, f, l, c, r, p, h, t, n, H, g, s, ?): q
+Bye!

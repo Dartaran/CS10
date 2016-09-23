@@ -1,0 +1,31 @@
+output 1: mammals empty (commented the code in the driver adding to mammals)
+mammals before: 
+primates before: baboon gorilla orangutan 
+mammals after: baboon gorilla orangutan 
+primates after: 
+mammals after (backward): orangutan gorilla baboon 
+primates after (backward): 
+
+output 2: primates empty
+mammals before: antelope bear cougar 
+primates before: 
+mammals after: antelope bear cougar 
+primates after: 
+mammals after (backward): cougar bear antelope 
+primates after (backward): 
+
+output 3: both empty
+mammals before: 
+primates before: 
+mammals after: 
+primates after: 
+mammals after (backward): 
+primates after (backward): 
+
+output 4: normal
+mammals before: antelope bear cougar 
+primates before: baboon gorilla orangutan 
+mammals after: antelope bear cougar baboon gorilla orangutan 
+primates after: 
+mammals after (backward): orangutan gorilla baboon cougar bear antelope 
+primates after (backward): 

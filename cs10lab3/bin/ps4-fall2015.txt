@@ -1,0 +1,61 @@
+set more off
+capture log close
+clear
+
+/* Between the " ", give the path to the directory where the data and 
+program are stored (like C:\Econ10\PS4). For "yourfile," write the 
+name of the file in which the output resulting from the STATA commands 
+will be stored.*/
+
+cd "C:\Users\Alan\Documents\Econ10\PS4"
+log using "ps4.log", replace
+
+/* 
+   This program answers questions for problem set 4.
+   Name:  Alan Lu	
+*/
+
+/*
+1. a. top to bottom, right column: 20.21, 20.3, 19.82, 20.21, 19.44
+	  left to right, bottom row: 54.33, 45.65, 99.98
+	  45.65% of districts desegregated by court order.
+	  14.2% of districts that desegregated by court order gave majority support 
+	  to Strom Thurmond.  5.24% of districts that voluntarily desegreated gave 
+	  majority support to Strom Thurmond.
+   b. 
+   c. Had the suits not happened at all, they would still be entirely segregated.
+*/
+
+/* Question 2 */
+
+use "nhcps2006_12.dta", clear
+tabulate educ_cat sex, chi2
+/*
+2. a. The chi-squared test p-value is 0.698 according to stata.  This means 
+that the two variables are statistically independent of one another.  I am not 
+surprised because I expected there to be minimal difference.
+*/
+tabulate empstat educ_cat, chi2
+/*
+   b. There is a p value of 0, meaning that education status and employment 
+   status are not independent.  This does not say that education has a causal 
+   effect, only that they are not independent.
+   
+3. a. 
+   b. rxy = 0.000379 / (0.0480809 * 0.0710858) = 0.1109
+      R-squared = 0.1109^2 = 0.01223
+	  This measures the goodness of fit of the linear regression line
+   c. 
+   d. 
+*/
+
+
+/* Question 4 */
+
+use "erp_data.dta", clear
+
+* put commands here
+
+
+capture log close
+
