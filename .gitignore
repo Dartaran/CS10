@@ -61,3 +61,12 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Eclipse
+*.prefs
+.classpath
+.project
+
+# Git
+.gitignore
+.gitattributes
